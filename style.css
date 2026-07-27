@@ -678,3 +678,23 @@ footer::before{content:"";position:absolute;left:-4%;right:-4%;top:-60px;height:
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
   .reveal{opacity:1;transform:none}
 }
+
+/* Original first-view artwork, always shown in full */
+.hero.hero-reference{
+  min-height:0;
+  padding:0;
+  background:#fff;
+  overflow:visible;
+}
+.hero-reference>img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-width:none;
+  object-fit:contain;
+  object-position:center;
+}
+@media (max-width:760px){
+  .hero.hero-reference{padding:0}
+  .hero-reference>img{width:100%;height:auto;object-fit:contain}
+}
