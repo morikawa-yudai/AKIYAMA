@@ -17,6 +17,7 @@
     <nav id="global-nav" class="global-nav" aria-label="メインナビゲーション">
       <a href="#top">TOP</a>
       <a href="#about">秋山総業について</a>
+      <a href="#services">サービス</a>
       <a href="#flow">ご利用の流れ</a>
       <a href="#price">単価表</a>
       <a href="#works">事例</a>
@@ -27,7 +28,7 @@
 
   <main>
     <section id="top" class="hero shell" aria-label="メインビジュアル">
-      <img src="./assets/hero-reference.webp" alt="あなたのまちの解体屋さん 秋山総業">
+      <div class="hero-art" role="img" aria-label="あなたのまちの解体屋さん 秋山総業"></div>
     </section>
 
     <section id="about" class="reasons section shell">
@@ -54,19 +55,19 @@
     <section id="services" class="services section shell">
       <div class="section-heading compact"><span>SERVICE</span><h2>サービス案内</h2></div>
       <div class="service-grid">
-        <article><i>🏠</i><h3>木造解体</h3><p>戸建住宅・空き家など、周辺環境へ配慮しながら丁寧に解体します。</p></article>
-        <article><i>🏗️</i><h3>鉄骨解体</h3><p>倉庫・店舗・工場などの鉄骨造建物に対応します。</p></article>
-        <article><i>🏢</i><h3>RC解体</h3><p>確かな施工管理で、鉄筋コンクリート造の解体に対応します。</p></article>
-        <article><i>🚪</i><h3>内装解体</h3><p>原状回復・スケルトン工事まで、ご要望に合わせて施工します。</p></article>
-        <article><i>🧱</i><h3>外構・ブロック撤去</h3><p>塀・庭石・カーポートなど、建物まわりの撤去もお任せください。</p></article>
-        <article><i>🌳</i><h3>空き家解体</h3><p>管理が難しい空き家のご相談から、解体・整地まで一貫対応します。</p></article>
+        <article><div class="service-ill service-wood" aria-hidden="true"></div><h3>木造解体</h3><p>戸建住宅・空き家など、周辺環境へ配慮しながら丁寧に解体します。</p></article>
+        <article><div class="service-ill service-steel" aria-hidden="true"></div><h3>鉄骨解体</h3><p>倉庫・店舗・工場などの鉄骨造建物に対応します。</p></article>
+        <article><div class="service-ill service-rc" aria-hidden="true"></div><h3>RC解体</h3><p>確かな施工管理で、鉄筋コンクリート造の解体に対応します。</p></article>
+        <article><div class="service-ill service-interior" aria-hidden="true"></div><h3>内装解体</h3><p>原状回復・スケルトン工事まで、ご要望に合わせて施工します。</p></article>
+        <article><div class="service-ill service-exterior" aria-hidden="true"></div><h3>外構・ブロック撤去</h3><p>塀・庭石・カーポートなど、建物まわりの撤去もお任せください。</p></article>
+        <article><div class="service-ill service-empty" aria-hidden="true"></div><h3>空き家解体</h3><p>管理が難しい空き家のご相談から、解体・整地まで一貫対応します。</p></article>
       </div>
       <div class="service-cta"><img src="./assets/mascot-woman-wave.webp" alt=""><a class="button" href="#contact">どんな工事でもお気軽に相談する <span>→</span></a></div>
     </section>
 
-    <section id="flow" class="flow-works section shell">
+    <section id="flow" class="flow section shell">
+      <div class="section-heading"><span>FLOW</span><h2>ご利用の流れ</h2><p>はじめての方でも安心の7ステップ！</p></div>
       <div class="flow-panel">
-        <div class="section-heading left"><span>FLOW</span><h2>ご利用の流れ</h2><p>はじめての方でも安心の7ステップ！</p></div>
         <ol>
           <li><b>01</b><img src="./assets/mascot-woman-phone.webp" alt=""><span>お問い合わせ</span></li>
           <li><b>02</b><img src="./assets/mascot-inspection.webp" alt=""><span>現地調査</span></li>
@@ -77,19 +78,21 @@
           <li><b>07</b><img src="./assets/mascot-point.webp" alt=""><span>完工・お引渡し</span></li>
         </ol>
       </div>
+    </section>
 
-      <div id="works" class="works-panel">
-        <div class="section-heading left"><span>WORKS & VOICE</span><h2>事例・お客様の声</h2></div>
+    <section id="works" class="works section shell">
+      <div class="section-heading"><span>WORKS & VOICE</span><h2>施工事例・お客様の声</h2></div>
+      <div class="works-panel">
         <div class="work-cards">
           <article>
             <div class="before-after"><span>Before</span><span>After</span></div>
-            <div class="work-visual">🏠 <i>→</i> 🏗️</div>
+            <div class="work-photo work-house" role="img" aria-label="木造住宅解体の施工前・施工後"></div>
             <h3>木造住宅解体</h3><p>工期｜10日間　地域｜さいたま市</p>
             <blockquote><img src="./assets/mascot-voice-woman.webp" alt="">近隣への配慮までしっかりしてくれて、とても安心できました！</blockquote>
           </article>
           <article>
             <div class="before-after"><span>Before</span><span>After</span></div>
-            <div class="work-visual">🏚️ <i>→</i> ✨</div>
+            <div class="work-photo work-empty" role="img" aria-label="空き家解体の施工前・施工後"></div>
             <h3>空き家解体</h3><p>工期｜15日間　地域｜上尾市</p>
             <blockquote><img src="./assets/mascot-voice-man.webp" alt="">見積りがわかりやすく、追加費用もなく安心でした！</blockquote>
           </article>
