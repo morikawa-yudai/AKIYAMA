@@ -75,9 +75,9 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-visual">
-          <img src="/images/hero-demolition.png" alt="青空の下で安全に解体工事を進める黄色い重機" />
+          <img src="/images/hero-demolition.webp" alt="青空の下で安全に解体工事を進める黄色い重機" />
           <div className="hero-bubble">私たちが心を込めて<br />解体します！</div>
-          <img className="hero-mascots" src="/images/mascot-team.png" alt="秋山総業のスタッフキャラクター" />
+          <img className="hero-mascots" src="/images/mascot-team.webp" alt="秋山総業のスタッフキャラクター" />
         </div>
         <div className="road road-hero" aria-hidden="true">
           <span className="moving-dump toy-sprite toy-1" />
@@ -160,7 +160,7 @@ export default function Home() {
           <div className="dotted-path" aria-hidden="true" />
         </div>
         <div className="worker-note">
-          <img src="/images/mascot-team.png" alt="" />
+          <img src="/images/mascot-team.webp" alt="" />
           <p><b>わからないことは、なんでも聞いてください！</b><br />専門スタッフが最初から最後までサポートします。</p>
         </div>
       </section>
@@ -234,7 +234,7 @@ export default function Home() {
           </ul>
           <a className="button button-yellow" href="#contact">採用について聞く</a>
         </div>
-        <img src="/images/mascot-team.png" alt="一緒に働く秋山総業の仲間" />
+        <img src="/images/mascot-team.webp" alt="一緒に働く秋山総業の仲間" />
       </section>
 
       <section className="contact" id="contact">
