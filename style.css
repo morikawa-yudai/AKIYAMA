@@ -487,7 +487,7 @@ h1,h2,h3,p{margin-top:0}
 .works-truck-lane{
   --works-truck-width:240px;
   width:min(1100px,100%);
-  height:155px;
+  height:190px;
   margin:42px auto -42px;
   position:relative;
   z-index:3;
@@ -700,7 +700,7 @@ footer::before{content:"";position:absolute;left:-4%;right:-4%;top:-60px;height:
   .service-note{grid-template-columns:120px 1fr;gap:8px;text-align:center}.service-note img{width:130px}.service-note .button{grid-column:1/3;width:min(280px,100%);margin:auto}
   .flow-path{grid-template-columns:repeat(2,1fr);gap:62px 18px}.flow-path li:nth-child(n){transform:none}.flow-path li:nth-child(even){transform:translateY(28px)}.flow-path img{height:150px}
   .work-grid{grid-template-columns:1fr;gap:90px}.work-grid article{width:min(500px,100%);margin:auto}
-  .works-truck-lane{--works-truck-width:160px;height:108px;margin:35px auto -25px}
+  .works-truck-lane{--works-truck-width:160px;height:130px;margin:35px auto -25px}
   .works-truck-road{left:4%;right:4%;bottom:10px;height:21px}
   .works-truck{bottom:7px}
   .link-clouds{grid-template-columns:1fr;gap:90px}.link-clouds article{width:min(430px,100%);margin:auto}.link-clouds article:nth-child(n){transform:none}
